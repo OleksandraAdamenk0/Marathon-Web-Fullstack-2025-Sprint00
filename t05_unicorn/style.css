@@ -1,0 +1,39 @@
+#rainbow-block {
+    height: 100px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#horn-block {
+    width: 90px;
+    height: 70px;
+    border-radius: 40px / 75px;
+    background: linear-gradient(-90deg, #a587d5, #49a8ca);
+    position: relative;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+    top: -8px;
+    left: 40px;
+}
+
+#horn-block::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    border-radius: 30px / 50px;
+    background: linear-gradient(-90deg, #a587d5, #49a8ca);
+    top: -45px;
+    left: 15px;
+    transform: rotate(-20deg);
+}
+
+#horn-block::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 110px;
+    border-radius: 35px;
+    background: linear-gradient(-90deg, #a587d5, #49a8ca);
+    bottom: -60px;
+    right: 10px;
+    transform: rotate(90deg);
+}

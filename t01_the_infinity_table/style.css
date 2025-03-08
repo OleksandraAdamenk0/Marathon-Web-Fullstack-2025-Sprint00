@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    border: none;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 20%;
+}
+
+#row1 {
+    color: white;
+    background-color: black;
+}
+
+#row2 {
+    background-color: #d6923d;
+}
+
+#row3 {
+    background-color: green;
+}
+
+#row4 {
+    background-color: #005792;
+}
+
+#row5 {
+    background-color: yellow;
+}
+
+#row6 {
+    background-color: #c12a2e;
+}
+
+#row7 {
+    background-color: #8175b7;
+}

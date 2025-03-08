@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-template-rows: auto;
+    justify-content: start;
+    gap: 4px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-content: space-between;
+    justify-items: center;
+}
+
+.card:hover {
+    z-index: 2;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3),
+    0 -6px 8px rgba(0, 0, 0, 0.3),
+    6px 0 8px rgba(0, 0, 0, 0.3),
+    -6px 0 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.card p:first-child {
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: white;
+    background-color: #0197b9;
+}
+
+.card p:last-child {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: black;
+}

@@ -1,0 +1,61 @@
+form {
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+fieldset {
+    padding-bottom: 24px;
+    padding-top: 12px;
+}
+
+fieldset:last-child {
+    border: none;
+}
+
+input {
+    box-shadow: none;
+    border: 1px solid gray;
+    margin: 10px 4px;
+}
+
+textarea {
+     margin: 10px 0 4px 0;
+}
+
+input[type="file"]::file-selector-button {
+    display: none;
+}
+
+button,
+.custom-btn {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: white;
+
+}
+
+.custom-btn {
+    font-family: arial, serif;
+    font-size: 80%;
+
+    margin-left: 4px;
+    padding: 2px 8px;
+}
+
+#photo {
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+#control-lvl {
+    margin-bottom: 0;
+}
+
+

@@ -1,0 +1,28 @@
+form {
+    display: flex;
+}
+
+input {
+    flex-grow: 1;
+
+    border: solid #005fcc;
+    border-radius: 4px;
+    outline: none;
+
+    padding: 4px 10px;
+
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+input, button {
+    color: green;
+}
+
+input:hover, button:hover {
+    color: red;
+}
+
+input::placeholder {
+    color: #757575;
+}

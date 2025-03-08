@@ -1,0 +1,85 @@
+img {
+    height: 182px;  /* The rule required by the pdf */
+    bottom: 47px;  /* The rule required by the pdf */
+    position: relative;  /* The rule required by the pdf */
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+
+    position: absolute;
+    margin: 0;
+    right: 12px;  /* The rule brings the page closer to the example */
+}
+
+.alias {
+    font-size: 12px;
+    color: white;
+    top: 8px;  /* The rule brings the page closer to the example */
+}
+
+.name {
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.5);
+    top: 24px;  /* The rule brings the page closer to the example */
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 60px;
+    column-gap: 50px;
+
+    list-style-type: none;
+    margin: 50px 50px 0;
+    padding: 0;
+}
+
+li {
+    width: 270px;
+    height: 140px;
+    padding: 25px 8px 8px;  /* The rule brings the page closer to the example */
+    border-radius: 5px;
+
+    position: relative;
+}
+
+li:nth-child(1) {
+    background: linear-gradient(to bottom, #4568DC, #B06AB3);
+    padding-top: 12px;
+}
+
+li:nth-child(1) img {
+    bottom: 34px;
+}
+
+li:nth-child(2) {
+    background: linear-gradient(to bottom, #e52d27, #b31217);
+    padding-top: 12px;
+}
+
+li:nth-child(2) img {
+    bottom: 34px;
+}
+
+li:nth-child(3) {
+    background: linear-gradient(to right, #000, #61045f);
+    padding-top: 12px;
+}
+
+li:nth-child(3) img {
+    bottom: 32px;
+}
+
+li:nth-child(4) {
+    background: linear-gradient(to bottom, #e52d27, #000);
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+
+li:nth-child(4) img {
+    top: -20px;
+}
